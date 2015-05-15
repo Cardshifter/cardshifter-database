@@ -1,5 +1,5 @@
 START TRANSACTION;
-DROP SCHEMA IF EXISTS replays CASCADE;
+--DROP SCHEMA IF EXISTS replays CASCADE; /* This WILL delete the schema and all related tables */
 CREATE SCHEMA replays;
 DROP ROLE IF EXISTS admins;
 CREATE ROLE admins WITH
